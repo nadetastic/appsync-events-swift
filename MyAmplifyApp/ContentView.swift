@@ -6,9 +6,9 @@ struct ContentView: View {
     @State private var socket: URLSessionWebSocketTask?
     @State private var messages: [String] = []
 
-    let REALTIME_DOMAIN = "bgipgmaftrggbcgf72gxkcu5ba.appsync-realtime-api.us-east-1.amazonaws.com"
-    let HTTP_DOMAIN = "bgipgmaftrggbcgf72gxkcu5ba.appsync-api.us-east-1.amazonaws.com"
-    let API_KEY = "da2-kf5t565zkfbolivcjhvotzgoim"
+    let REALTIME_DOMAIN = "abcd1234.appsync-realtime-api.us-east-1.amazonaws.com"
+    let HTTP_DOMAIN = "abcd1234.appsync-api.us-east-1.amazonaws.com"
+    let API_KEY = "da2-abcd1234"
     
     var authorization: [String: String] {
         ["x-api-key": API_KEY, "host": HTTP_DOMAIN]

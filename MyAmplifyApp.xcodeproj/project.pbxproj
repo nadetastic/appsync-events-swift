@@ -10,6 +10,7 @@
 		35D138352D0A4D16007041FC /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 35D138342D0A4D16007041FC /* AWSCognitoAuthPlugin */; };
 		35D138372D0A4D16007041FC /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 35D138362D0A4D16007041FC /* Amplify */; };
 		35D1383A2D0A4E30007041FC /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = 35D138392D0A4E30007041FC /* Authenticator */; };
+		35D138572D0E0DDC007041FC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 35D138562D0E0DD5007041FC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		35D138062D0A4B70007041FC /* MyAmplifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAmplifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D138162D0A4B78007041FC /* MyAmplifyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAmplifyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D138202D0A4B78007041FC /* MyAmplifyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAmplifyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D138562D0E0DD5007041FC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,6 +86,7 @@
 		35D137FD2D0A4B70007041FC = {
 			isa = PBXGroup;
 			children = (
+				35D138562D0E0DD5007041FC /* .gitignore */,
 				35D138082D0A4B70007041FC /* MyAmplifyApp */,
 				35D138192D0A4B78007041FC /* MyAmplifyAppTests */,
 				35D138232D0A4B78007041FC /* MyAmplifyAppUITests */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D138572D0E0DDC007041FC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
